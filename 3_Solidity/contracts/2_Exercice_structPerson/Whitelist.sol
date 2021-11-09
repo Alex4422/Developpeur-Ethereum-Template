@@ -11,4 +11,6 @@ contract WhitelistStruct {
         string name ;
         uint age ;
     }
+
+    Person person = Person("name", 30);
 }
