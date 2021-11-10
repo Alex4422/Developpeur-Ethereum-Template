@@ -13,4 +13,12 @@ contract WhitelistStruct {
     }
 
     Person person = Person("name", 30);
+
+    function public addPerson(string _name, uint _age) {
+
+        this.name = _name;
+        this.age = _age;
+    }
+
+
 }
