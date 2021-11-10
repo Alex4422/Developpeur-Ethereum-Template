@@ -5,7 +5,7 @@ pragma solidity 0.8.9;
 /**
     @notice defines a struct Person
 */
-contract WhitelistStruct {
+contract Array_avance {
 
     struct Person{
         string name ;
@@ -14,11 +14,11 @@ contract WhitelistStruct {
 
     Person person = Person("name", 30);
 
-    function addPerson(string _name, uint _age) public {
-        Person memory person;
+    function addPerson(string memory _name, uint _age) public {
+        Person memory person2;
 
-        this.name = _name;
-        this.age = _age;
+        person2.name = _name;
+        person2.age = _age;
     }
 
 
