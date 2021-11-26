@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.11;
 
+//La DApp est déployé à cette @: https://powerful-bastion-79938.herokuapp.com/
 contract Whitelist {
     mapping(address=> bool) public _whitelist;
     address[] public addresses;
